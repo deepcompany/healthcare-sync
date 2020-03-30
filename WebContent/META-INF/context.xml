@@ -1,0 +1,8 @@
+<Context path='/server_sql' debug='5' reloadable='true' crossContext='true'>
+	<Resource name="jdbc/ServerSQL" auth="Container" type="javax.sql.DataSource"
+               maxActive="100" maxIdle="30" maxWait="10000"
+               username="" password=""
+               driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+               url="jdbc:sqlserver://Server\SQLEXPRESS14:1433;databaseName=DB;"
+               removeAbandoned="true" removeAbandonedTimeout="60"/>
+</Context>
